@@ -1,0 +1,19 @@
+{
+  "name": "lbsample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"node lb.js\"  \"node server.js\""
+  },
+  "author": "Sankaranarayanan Mahadevan <shankarnarayan91@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "concurrently": "^3.4.0",
+    "express": "^4.15.3",
+    "express-sslify": "^1.2.0",
+    "request": "^2.81.0"
+  }
+}
